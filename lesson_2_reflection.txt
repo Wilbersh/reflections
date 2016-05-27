@@ -1,10 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
 the command "git init" initializes the repository and creates a ".git"-Folder
+no commit will be done, but all necessary steps will be done to have an empty repository.
+
+the "git log" command will bring an fault-message, more info can you get with the "git status" command.
 
 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+In the working directory there are all the files you are working with, in the repository there are 
+the files you have already committed. In the staging area you put all the files you want to commit with 
+the add command. With this concept it is possible to select what you want to have in your repository.
+ 
+
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
