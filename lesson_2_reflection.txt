@@ -9,9 +9,9 @@ the "git log" command will bring an fault-message, more info can you get with th
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-In the working directory there are all the files you are working with, in the repository there are 
-the files you have already committed. In the staging area you put all the files you want to commit with 
-the add command. With this concept it is possible to select what you want to have in your repository.
+	In the working directory there are all the files you are working with, in the repository there are 
+	the files you have already committed. In the staging area you put all the files you want to commit with 
+	the add command. With this concept it is possible to select what you want to have in your repository.
  
 
 
@@ -19,13 +19,36 @@ the add command. With this concept it is possible to select what you want to hav
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	When you commit, only the items of the staging area will be transferred to the repository, therefor 
+	you pick file after file, add it to the staging area and commit it, so you have a fine grained repository.
+
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	branches are usefull, if you have some changes to do, that take a little more time, or that
+	need to make a lot of changes. While you were working, you could not bugfix the actual version.
+	
+	
+
 How do the diagrams help you visualize the branch structure?
+
+	if you have a visual structure in mind, you can imagine what happens
+
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	the commits of the two branches are tried to put together.
+
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	If you separate your jobs it is probable that most mergings run without conflict
+	and you do not have very much work usually, and if you have to work on the conflicts,
+	it is that you would have to work on it either.
