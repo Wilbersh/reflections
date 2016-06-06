@@ -14,10 +14,9 @@ Describe the differences between forks, clones, and branches.  When would you us
     cloning is used, when you want to make a new local repository from a remote repository
     forking is used, when you want to clone a GitHub-Repository of someone elses repository and you do not want, or are not allowed to work as a collaborator, GitHub makes all the cloningsteps for you
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+    you can imagine what and why the remote changes have happened. You can go back to that step and then add the two changes step by step.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
